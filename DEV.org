@@ -1,0 +1,8 @@
+* install
+#+begin_src shell
+nix profile install .#krr
+#+end_src
+* usage
+#+begin_src shell
+python krr.py simple --prometheus-url http://localhost:9090
+#+end_src
